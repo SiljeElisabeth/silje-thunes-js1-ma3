@@ -23,7 +23,10 @@ async function makeApiCall() {
             if(i === 8) {
                 break;
             }
-            gameContainer.innerHTML += `<div class="games"><p>Name:</p>${gameName} <p>Rating:</p>${gameRating}<p>Amount of tags</p>${gameTags}</div>`
+            gameContainer.innerHTML += `<div class="games"><p>Name:</p>${gameName} 
+                                            <p>Rating:</p>${gameRating}
+                                            <p>Amount of tags</p>${gameTags}
+                                        </div>`
         }
     } catch(error) {
         console.log(error);
